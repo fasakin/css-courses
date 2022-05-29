@@ -1,0 +1,32 @@
+body {
+    height: 200vh;
+}
+.wrapper {
+    display: flex;
+    width: 98vw;
+    justify-content: space-between;
+}
+
+.box {
+    width: 700px;
+    height: 600px;
+    /*border:1px solid red;*/
+    margin-bottom: 50px;
+
+}
+
+.a {
+    background-image: url("./images/star.png"), url("./images/balloons.jpeg") ;
+    background-color: red;
+    background-repeat: repeat-y, no-repeat;
+    background-position: 20px 10%;
+
+}
+
+.b {
+    background-image: url("./images/star.png");
+    background-repeat: no-repeat;
+    background-position: 20px 10%;
+    background: rgb(2,0,36);
+    background-image: url("./images/star.png");
+}
